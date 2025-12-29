@@ -1,7 +1,7 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import langchainLogo from 'figma:asset/fa18378587077a1f069a91715f76eba2d79cf107.png';
-import astradbLogo from 'figma:asset/9c8159b9e0419c3cff4f88d8a45b5fade96f1699.png';
-import mcpLogo from 'figma:asset/3e65d3a654617f0a1ba77bbc3e2b62d5535af493.png';
+// import langchainLogo from 'figma:asset/fa18378587077a1f069a91715f76eba2d79cf107.png';
+// import astradbLogo from 'figma:asset/9c8159b9e0419c3cff4f88d8a45b5fade96f1699.png';
+// import mcpLogo from 'figma:asset/3e65d3a654617f0a1ba77bbc3e2b62d5535af493.png';
 // import chatgptLogo from 'figma:asset/fb7eea11ce642197d4cb0d0641bd90ee6e77ebd0.png';
 
 interface TechLogoProps {
@@ -58,11 +58,11 @@ const techLogos: Record<string, string> = {
   // AI/ML & Data
   "TensorFlow": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
   "D3.js": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/d3js/d3js-original.svg",
-  "LangChain": langchainLogo,
+  // "LangChain": langchainLogo,
   // "OpenAI": chatgptLogo,
   // "OpenAI API": chatgptLogo,
-  "MCP": mcpLogo,
-  "AstraDB": astradbLogo,
+  // "MCP": mcpLogo,
+  // "AstraDB": astradbLogo,
   "Streamlit": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg",
   
   // State Management & APIs
